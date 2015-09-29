@@ -1,3 +1,22 @@
+body {
+  background-image: url('grey.png');
+}
+.board{
+  border:thick solid #1D7373;
+}
+.square{
+  color: #FF9644;
+  font-size: 50px;
+  height: 72px;
+  text-align: center;
+  text-shadow: 1pm 1pm 2px #333;
+  width: 72px;
+}
+
+.dark_square{
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#009999), color-stop(100%,#1d7373));
+}
+
 /*
 
 Some references you may find useful:
